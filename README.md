@@ -2,258 +2,145 @@
 
 ## Overview
 
-This repository presents an integrated statistical analysis of the temporal dynamics, complexity, memory, concentration, and structural changes of monthly precipitation in **Diyarbakır, Türkiye**.
+This project investigates the temporal behavior of monthly precipitation in **Diyarbakır, Türkiye**, with particular emphasis on variability, concentration, complexity, memory, multi-scale dynamics, and structural change.
 
-The study goes beyond conventional precipitation trend analysis by examining precipitation as a complex temporal system characterized by seasonality, persistence, nonlinear variability, multiple temporal scales, and structural changes.
-
-The analytical framework combines descriptive statistics, precipitation concentration analysis, entropy-based complexity measures, Hurst exponent analysis, wavelet analysis, Bayesian change-point detection, precipitation regime analysis, and quantile-based assessment.
-
----
-
-## Research Objectives
-
-The study aims to:
-
-- characterize the seasonal structure of monthly precipitation;
-- quantify temporal variability and precipitation concentration;
-- investigate the complexity and regularity of precipitation dynamics;
-- assess long-term memory and persistence;
-- identify dominant temporal scales of precipitation variability;
-- detect potential structural and regime changes;
-- investigate distributional changes across precipitation quantiles;
-- provide an integrated interpretation of precipitation dynamics.
+The study goes beyond conventional trend analysis by combining complementary statistical and time-series methods to determine **how the internal structure of precipitation has changed over time**.
 
 ---
 
 # Key Results
 
-The analysis indicates that monthly precipitation in Diyarbakır exhibits a **strongly seasonal, heterogeneous, persistent, and structurally variable temporal behavior**.
+The analysis indicates that precipitation in Diyarbakır is characterized by:
 
-### Main findings
+- **Strong seasonal variability**, with precipitation unevenly distributed throughout the year.
+- **Substantial interannual variability**, including distinct wet and dry periods.
+- **Temporal concentration**, indicating that precipitation is not uniformly distributed across the annual cycle.
+- **Complex and irregular temporal behavior**, identified through entropy-based measures.
+- **Temporal persistence and memory**, evaluated using the Hurst exponent.
+- **Multi-scale variability**, revealed through wavelet analysis.
+- **Potential structural transitions**, identified through Bayesian change-point analysis.
+- **Distinct precipitation regimes**, suggesting that the statistical behavior of precipitation is not completely homogeneous through time.
+- **Distributional differences**, investigated through quantile regression.
 
-- Precipitation is strongly concentrated within particular periods of the annual cycle, demonstrating pronounced seasonality.
-- Monthly precipitation exhibits substantial temporal variability rather than a uniform distribution through time.
-- Entropy-based indicators demonstrate that precipitation dynamics contain varying degrees of complexity and temporal irregularity.
-- Hurst-based analysis provides evidence regarding persistence and long-term memory within the precipitation series.
-- Wavelet analysis reveals variability occurring across multiple temporal scales.
-- Bayesian change-point analysis identifies periods in which the statistical structure of precipitation changes.
-- Regime analysis suggests that precipitation can be characterized by distinct temporal states rather than a single homogeneous regime.
-- Quantile-based analysis indicates that precipitation changes may differ across the distribution and therefore cannot be fully represented by changes in the mean alone.
+### Main Interpretation
 
-### Overall interpretation
-
-The results suggest that precipitation in Diyarbakır should be interpreted as a **complex and non-stationary hydroclimatic system**.
-
-The observed characteristics indicate that precipitation change involves more than a simple increase or decrease in rainfall. Changes in seasonality, concentration, complexity, persistence, temporal scale, and structural regimes may occur simultaneously.
+Overall, the results indicate that Diyarbakır precipitation should be considered a **complex and dynamically evolving hydroclimatic system**, rather than a variable that can be adequately described by a simple linear trend.
 
 ---
 
 # Key Figures
 
-## 1. Monthly Precipitation Dynamics
+## Monthly and Annual Precipitation Dynamics
 
-![Monthly precipitation dynamics](monthly_precipitation_dynamics.png)
+![Precipitation dynamics](0d23e77b-2e12-4d8c-b46a-512d300de47a.png)
 
-The temporal distribution of monthly precipitation illustrates the pronounced seasonal structure and interannual variability of rainfall.
+![Precipitation variability](1a0fd506-aff1-4190-9579-9c4a092b7674.png)
 
----
-
-## 2. Annual Precipitation Variability
-
-![Annual precipitation variability](annual_precipitation_variability.png)
-
-Annual precipitation variability provides an overview of changes in total precipitation and highlights periods of relatively wet and dry conditions.
+These figures summarize the main temporal characteristics of monthly and annual precipitation.
 
 ---
 
-## 3. Monthly Precipitation Heatmap
+## Precipitation Concentration and Distribution
 
-![Monthly precipitation heatmap](monthly_precipitation_heatmap.png)
+![Precipitation concentration](2864e3f5-cda2-41a5-a0bc-7f1301695d40.png)
 
-The heatmap provides a compact representation of the seasonal and interannual organization of precipitation.
-
----
-
-## 4. Precipitation Concentration
-
-![Precipitation concentration](precipitation_concentration.png)
-
-The concentration analysis evaluates how precipitation is distributed throughout the annual cycle and identifies periods contributing disproportionately to total rainfall.
+The concentration analysis evaluates the degree to which precipitation is distributed unevenly across the annual cycle.
 
 ---
 
-## 5. Entropy-Based Complexity
+## Complexity and Entropy
 
-![Entropy analysis](entropy_analysis.png)
+![Complexity analysis](3a334a42-5b24-4469-8d1a-676b024834e5.png)
 
-Entropy-based measures are used to characterize uncertainty, regularity, and complexity within the precipitation time series.
-
----
-# Hurst Exponent and Long-Term Memory
-
-![Hurst exponent analysis](hurst_exponent.png)
-
-The Hurst exponent is used to investigate persistence and long-range dependence in precipitation variability.
-
-Values indicating persistent behavior suggest that temporal conditions may influence subsequent observations, while lower persistence indicates a more irregular temporal structure.
+Entropy-based measures are used to assess precipitation uncertainty, regularity, and temporal complexity.
 
 ---
 
-# Wavelet Analysis
+## Memory and Persistence
 
-![Wavelet analysis](wavelet_analysis.png)
+![Hurst analysis](41105c8a-e7b7-44b8-8069-7ef97fa8dd96.png)
 
-Wavelet analysis investigates precipitation variability across different temporal scales.
-
-This approach makes it possible to identify periods in which short-, intermediate-, or longer-term fluctuations become particularly important.
-
-The analysis therefore complements conventional time-domain statistics by examining the frequency characteristics of precipitation variability.
+The Hurst exponent provides information about persistence and long-range temporal dependence in precipitation.
 
 ---
 
-# Bayesian Change-Point Detection
+## Wavelet Dynamics
 
-![Bayesian change point analysis](bayesian_change_points.png)
+![Wavelet analysis](51a68513-8ab1-4ccc-a0b8-880815f7dc99.png)
 
-Bayesian change-point analysis is applied to identify potential structural changes in the precipitation series.
-
-Detected change points may indicate transitions between periods characterized by different statistical properties.
-
-These results provide an important basis for evaluating precipitation non-stationarity.
+Wavelet analysis identifies dominant temporal scales and changes in precipitation variability through time.
 
 ---
 
-# Precipitation Regimes
+## Structural Change
 
-![Precipitation regimes](precipitation_regimes.png)
+![Bayesian change-point analysis](6bbea741-414e-4324-ae9b-b46b770bac69.png)
 
-Regime analysis is used to distinguish periods with different precipitation characteristics.
-
-The identification of distinct regimes provides an additional perspective on temporal heterogeneity and helps determine whether precipitation behavior can be represented by a single statistical state.
+Bayesian change-point analysis is used to identify potential periods of structural transition in the precipitation series.
 
 ---
 
-# Quantile-Based Analysis
+## Precipitation Regimes
 
-![Quantile regression](quantile_regression.png)
+![Precipitation regimes](6e1a8c7c-4fd7-4617-8c91-73cf47c3d7be.png)
 
-Quantile-based analysis examines precipitation behavior across different portions of the distribution.
-
-This approach is particularly useful because changes in average precipitation may not adequately describe changes occurring at low or high precipitation levels.
+Regime analysis evaluates whether different periods exhibit distinct precipitation characteristics.
 
 ---
 
-# Integrated Analytical Framework
+## Distributional Change
 
-The complete analytical workflow can be summarized as follows:
+![Quantile analysis](7c34239e-8be0-4f77-94bc-f2f20aa6af44.png)
 
-```text
-                 MONTHLY PRECIPITATION DATA
-                            │
-                            ▼
-                Data Preparation & QC
-                            │
-                            ▼
-              Seasonal & Temporal Analysis
-                            │
-             ┌──────────────┼──────────────┐
-             ▼              ▼              ▼
-      Concentration      Entropy         Variability
-             │              │              │
-             └──────────────┼──────────────┘
-                            ▼
-                   Complexity Analysis
-                            │
-             ┌──────────────┼──────────────┐
-             ▼              ▼              ▼
-          Hurst          Wavelet       Change Points
-             │              │              │
-             └──────────────┼──────────────┘
-                            ▼
-                    Regime Analysis
-                            │
-                            ▼
-                  Quantile Analysis
-                            │
-                            ▼
-              INTEGRATED INTERPRETATION
-                            │
-                            ▼
-          PRECIPITATION DYNAMICS & STRUCTURE
-# Scientific Interpretation
-
-The integrated analysis indicates that precipitation in Diyarbakır is not adequately described by a simple increasing or decreasing trend.
-
-Instead, the precipitation system exhibits multiple interacting characteristics, including:
-
-- pronounced seasonality;
-- considerable interannual variability;
-- temporal concentration;
-- changing complexity;
-- persistence and long-term memory;
-- variability across multiple temporal scales;
-- potential structural breaks;
-- distinct precipitation regimes;
-- and distributional differences across quantiles.
-
-These characteristics indicate that precipitation should be considered a **dynamic and non-stationary hydroclimatic system**.
-
-The combined evidence from entropy, Hurst exponent, wavelet, change-point, regime, and quantile analyses provides a more comprehensive interpretation than conventional mean-based precipitation statistics alone.
+Quantile-based analysis investigates whether precipitation behavior differs across low, median, and high precipitation conditions.
 
 ---
 
-# Main Findings at a Glance
+# Analytical Framework
 
-| Component | Main Interpretation |
-|---|---|
-| Seasonality | Precipitation shows a pronounced seasonal structure |
-| Temporal variability | Considerable interannual and monthly fluctuations are present |
-| Concentration | Rainfall is unevenly distributed throughout the annual cycle |
-| Entropy | Precipitation exhibits measurable complexity and irregularity |
-| Hurst exponent | Temporal persistence and memory characteristics are detectable |
-| Wavelet analysis | Variability occurs across multiple temporal scales |
-| Change-point analysis | Potential structural transitions are identified |
-| Regime analysis | Distinct precipitation states can be distinguished |
-| Quantile analysis | Changes may differ across the precipitation distribution |
+| Dimension | Method | Purpose |
+|---|---|---|
+| Seasonality | Climatological analysis | Identify seasonal structure |
+| Concentration | Precipitation concentration | Assess temporal distribution |
+| Complexity | Shannon / Sample / Permutation Entropy | Quantify complexity and irregularity |
+| Memory | Hurst Exponent | Assess persistence |
+| Temporal scales | Wavelet Analysis | Identify multi-scale variability |
+| Structural change | Bayesian Change-Point Detection | Detect regime transitions |
+| Regimes | Regime Analysis | Compare different periods |
+| Distribution | Quantile Regression | Examine distributional changes |
 
 ---
 
-# Methodological Workflow
+# Research Question
 
-The complete workflow follows a sequential analytical structure:
+> **Has monthly precipitation in Diyarbakır changed only in magnitude, or have its complexity, memory, temporal structure, and statistical regimes also changed over time?**
 
-```text
-Monthly Precipitation
-        │
-        ▼
-Data Preparation
-        │
-        ▼
-Quality Control
-        │
-        ▼
-Seasonal Analysis
-        │
-        ▼
-Temporal Variability
-        │
-        ├───────────────┐
-        ▼               ▼
-Concentration       Entropy
-                        │
-                        ▼
-                   Complexity
-                        │
-        ┌───────────────┼───────────────┐
-        ▼               ▼               ▼
-      Hurst          Wavelet       Change Point
-        │               │               │
-        └───────────────┼───────────────┘
-                        ▼
-                 Regime Analysis
-                        │
-                        ▼
-                Quantile Analysis
-                        │
-                        ▼
-              Integrated Assessment
+---
+
+# Data
+
+- **Study area:** Diyarbakır, Türkiye
+- **Variable:** Monthly precipitation
+- **Temporal resolution:** Monthly
+- **Research field:** Hydroclimatology and climate variability
+- **Approach:** Statistical time-series analysis
+
+---
+
+# Scientific Significance
+
+The project demonstrates that precipitation change should not be evaluated solely through changes in mean rainfall.
+
+Changes in **seasonality, concentration, complexity, persistence, temporal scales, structural regimes, and distributional behavior** may provide additional information about hydroclimatic variability.
+
+The integrated framework can also be applied to other meteorological stations, regions, and precipitation datasets.
+
+---
+
+# Author
+
+**Prepared and developed by Ahmet Solmaz**
+
+**Research interests:** Geography · Hydroclimatology · Climate Change · Environmental Analysis
+
+This repository represents an independently developed academic research project focusing on the temporal dynamics and structural characteristics of precipitation in Diyarbakır, Türkiye.
